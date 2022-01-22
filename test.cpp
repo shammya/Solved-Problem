@@ -5,4 +5,5 @@ int main()
 {
     cout << "first test for git patch !" << endl;
     cout << "  branch 1 added !" << endl;
+    cout << " new line in branch 1 added !" << endl;
 }
