@@ -1,0 +1,23 @@
+From 7a15e56d3db30e2fed7580f3d6a29608dd8de714 Mon Sep 17 00:00:00 2001
+From: shammya <kaziwasifaminshammu@gmail.com>
+Date: Sat, 22 Jan 2022 11:16:56 +0600
+Subject: [PATCH 2/2] newline in branch1
+
+---
+ test.cpp | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/test.cpp b/test.cpp
+index 0101007..cf7c2d1 100644
+--- a/test.cpp
++++ b/test.cpp
+@@ -5,4 +5,5 @@ int main()
+ {
+     cout << "first test for git patch !" << endl;
+     cout << "  branch 1 added !" << endl;
++    cout << " new line in branch 1 added !" << endl;
+ }
+\ No newline at end of file
+-- 
+2.25.1
+
